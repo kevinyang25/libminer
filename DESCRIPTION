@@ -1,13 +1,13 @@
 Package: libminer
-Title: What the Package Does (One Line, Title Case)
+Title: Explore Your R Libraries
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Kevin",
+           family = "Yang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "kjy110498@gmail.com")
+Description: Provides functions for learning about your R libraries, and the 
+    packages they contain.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
