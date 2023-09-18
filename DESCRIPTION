@@ -18,3 +18,5 @@ BugReports: https://github.com/kevinyang25/libminer/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    fs
