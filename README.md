@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/kevinyang25/libminer/workflows/R-CMD-check/badge.svg)](https://github.com/kevinyang25/libminer/actions)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -35,20 +36,20 @@ optionally with the total sizes, use `lib_summary()`.
 ``` r
 library(libminer)
 lib_summary()
-#>                                                                                       Library
-#> 1                              /Library/Frameworks/R.framework/Versions/3.6/Resources/library
-#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d1da8e7b
+#>                                                                                        Library
+#> 1                               /Library/Frameworks/R.framework/Versions/3.6/Resources/library
+#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d4725acfd
 #>   n_packages
 #> 1        560
 #> 2          1
 #Specify sizes=TRUE
 lib_summary(sizes=TRUE)
-#>                                                                                       Library
-#> 1                              /Library/Frameworks/R.framework/Versions/3.6/Resources/library
-#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d1da8e7b
+#>                                                                                        Library
+#> 1                               /Library/Frameworks/R.framework/Versions/3.6/Resources/library
+#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d4725acfd
 #>   n_packages   lib_size
 #> 1        560 2029329907
-#> 2          1      13824
+#> 2          1      36855
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
