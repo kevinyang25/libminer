@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/kevinyang25/libminer/workflows/R-CMD-check/badge.svg)](https://github.com/kevinyang25/libminer/actions)
+[![R-CMD-check](https://github.com/kevinyang25/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kevinyang25/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -38,7 +39,7 @@ library(libminer)
 lib_summary()
 #>                                                                                        Library
 #> 1                               /Library/Frameworks/R.framework/Versions/3.6/Resources/library
-#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d4725acfd
+#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpnPi51O/temp_libpath3ee226bd9ec7
 #>   n_packages
 #> 1        560
 #> 2          1
@@ -46,10 +47,10 @@ lib_summary()
 lib_summary(sizes=TRUE)
 #>                                                                                        Library
 #> 1                               /Library/Frameworks/R.framework/Versions/3.6/Resources/library
-#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpMLSfK8/temp_libpath345d4725acfd
+#> 2 /private/var/folders/xv/m2p6kdr1183f09bbkfnygf8h0000gn/T/RtmpnPi51O/temp_libpath3ee226bd9ec7
 #>   n_packages   lib_size
-#> 1        560 2029329907
-#> 2          1      36855
+#> 1        560 2025303169
+#> 2          1      36854
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
